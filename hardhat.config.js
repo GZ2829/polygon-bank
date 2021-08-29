@@ -1,6 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
 
-const secret = require("./enviornment/secrets.json");
+const secrets = require("./enviornment/secrets.json");
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
@@ -15,8 +15,8 @@ module.exports = {
   },
   networks: {
     mumbai: {
-      url: secret.mumbainode,
-      accounts: [secret.privatekey]
+      url: secrets.mumbainode,
+      accounts: [secrets.privatekey]
     },
   }
 };
