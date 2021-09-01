@@ -19,6 +19,6 @@ contract Token is ERC20 {
     }
 
     function mint(address _to, uint256 _amount) public onlyBanks {
-        _mint(_to, _amount);
+        _mint(_to, _amount); 
     }
 }
