@@ -18,6 +18,7 @@ describe('Bank App', () => {
 
     })
 
+    // Tests deployment
     describe("Deployment", () =>{
         it('Should have zero assets', async ()=>{
             expect(await bank.totalAssets()).to.equal("0")
@@ -35,6 +36,14 @@ describe('Bank App', () => {
             expect(await token.balanceOf(address_2.address)).to.equal("0")
         });
 
+    })
+
+
+    // Tests Contract
+    describe("Contract Functions", ()=>{
+        it('Shou;', async ()=>{
+            
+        })
     })
 
 
