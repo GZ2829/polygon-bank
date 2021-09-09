@@ -38,6 +38,8 @@ describe('Bank App', () => {
 
     })
 
+    console.log('basic tests')
+
 
     // Tests Contract
     describe("Contract Functions", ()=>{
