@@ -44,7 +44,7 @@ describe('Bank App', () => {
     // Tests Contract
     describe("Contract Functions", ()=>{
         it('Shou;', async ()=>{
-            
+            expect().to.equal("0")
         })
     })
 
